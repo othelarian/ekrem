@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>wins/win2d.qml</file>
+        <file>Components/EkMenu.qml</file>
+    </qresource>
+</RCC>
