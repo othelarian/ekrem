@@ -4,6 +4,8 @@ import QtQuick.Controls 2.1
 
 import EkElts 1.0 as Ek
 
+import "Components"
+
 Window {
     id: root
     visible: true
@@ -17,8 +19,15 @@ Window {
     // TODO : Tools
     // TODO : generation tree
     //
+    EkBar {
+        //
+        //
+    }
+    //
     // TEST : code for a new window
     Button {
+        anchors.top: parent.top
+        anchors.topMargin: 60
         text: "test 2D win"
         onClicked: {
             //
@@ -30,22 +39,7 @@ Window {
     }
     // TEST
     //
-    Ek.EkCircle {
-        //
-        anchors.top: parent.top
-        anchors.topMargin: 50
-        anchors.horizontalCenter: parent.horizontalCenter
-        //
-        width: 20
-        height: 20
-        extcol: "blue"
-        sizeOut: 15
-        sizeIn: 12
-        incol: "orange"
-        incircle: true
-        //
-    }
-    //
-    //
     // dialogs ########################
+    //
+    //
 }
